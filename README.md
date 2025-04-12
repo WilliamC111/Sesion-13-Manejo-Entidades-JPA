@@ -17,11 +17,13 @@ Para ejecutar el proyecto necesitas:
 1. Crea una base de datos en MySQL para almacenar los datos bibliotecarios
 2. Modifica el archivo `application.properties` en `src/main/resources` con tus credenciales:
 
-```properties
+properties
+
 spring.datasource.url=jdbc:mysql://localhost:3306/tu_basedatos
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
 spring.jpa.hibernate.ddl-auto=update
+
 ⚙️ Configuración del puerto
 En el mismo archivo application.properties configura el puerto:
 
@@ -37,16 +39,16 @@ Ejecuta el archivo principal LibraryappApplication.java ubicado en src/main/java
 
 La aplicación estará disponible en http://localhost:PUERTO
 
-🚀 Características principales
+## 🚀 Características principales
 Gestión de libros y editoriales
 
 Búsqueda avanzada de libros
 
 Relación muchos-a-uno entre libros y editoriales
 
-Interfaz amigable con Bootstrap
+Interfaz  Bootstrap
 
-🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 Spring Boot 3.3.5
 
 Thymeleaf
@@ -57,14 +59,10 @@ MySQL
 
 Bootstrap 4
 
-🤝 Contribuidores
-Proyecto creado por:
+## 🤝 Contribuidores
+ANDRÉS LEONARDO MALDONADO
 
-Juan David Ochoa
-GitHub | LinkedIn
+WILLIAM CELY 
 
-William Cely
-GitHub | LinkedIn
+JUAN DAVID OCHOA
 
-Andrés Maldonado
-GitHub | LinkedIn
